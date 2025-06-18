@@ -41,7 +41,6 @@ export NVM_DIR="$HOME/.nvm"
 nvm install node || error "Failed to install node.js with nvm!"
 source ~/.bashrc
 fi
-sudo apt-get install -y qtcreator qt5-qmake qt5-default g++ pkgconf libssl-dev git libmpv-dev libqt5webview5-dev libkf5webengineviewer-dev qml-module-qtwebchannel  librsvg2-bin libqt5opengl5-dev curl
 sudo rm /usr/share/applications/qt*
 mkdir ~/apps
 git clone --recurse-submodules -j8 git://github.com/Stremio/stremio-shell.git ~/apps/stremio
